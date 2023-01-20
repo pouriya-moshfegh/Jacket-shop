@@ -1,0 +1,168 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jacekt shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- !this is left side of the page -->
+      <section class="l-section">
+        <header class="l-header">
+          <!-- !this is search and header of the left part -->
+          <h2>Factory</h2>
+          <div class="input-container">
+            <form action="#">
+              <input type="text" placeholder="    Search" />
+            </form>
+            <i class="fa fa-sliders"></i>
+          </div>
+        </header>
+
+        <!-- !left nav bar-->
+        <nav class="l-nav">
+          <ul class="l-nav-ul">
+            <li><i class="fa fa-home"></i></li>
+            <li><i class="fa fa-th-large"></i></li>
+            <li><i class="fa fa-map-o"></i></li>
+            <li><i class="fa fa-cube"></i></li>
+            <li class="iconF">
+              <i class="fa fa-shopping-cart shopping"></i>
+              <div class="items-in-cart-icon-qunatity"></div>
+            </li>
+          </ul>
+        </nav>
+        <!-- !  modal -->
+        <div class="modal">
+          <h2>Your List</h2>
+          <div class="modal-list-container">
+            <!--            
+          <img
+                  src="source/image/black-leather-jacket-png-image.png "
+                  alt=""
+                />
+                <div class="modal-list-item-detail">
+                  <p>black-leather-jacket</p>
+                  <p><span>120 USD</span></p>
+                </div>
+                <div class="modal-list-item-quantity">
+                  <i class="fa fa-arrow-up"></i><span>1</span
+                  ><i class="fa fa-arrow-down"></i>
+                </div>
+                <div class="modal-list-item-remover"><i class='fa fa-trash'></i></div> -->
+            
+          </div>
+          <div class="total-price">
+            <p>Total price is <span>0</span>$</p>
+            <button class="modal-btn-clear">Clear cart</button>
+            <button class="modal-btn-confirm">Confirm</button>
+          </div>
+        </div>
+
+        <!-- !in this section there are all the things that are on sale  -->
+        <section class="l-main-shop"></section>
+      </section>
+
+      <!-- !this is the right side of the page -->
+      <section class="r-section">
+        <div class="r-section-top">
+          <header class="r-header">
+            <h1 class="item-name-head">black-leather-jacket</h1>
+          </header>
+
+          <!-- this is the clicked item photo -->
+          <div class="product-image-picked">
+            <img
+              class="product-image-picked-img"
+              src="source/image/black-leather-jacket-png-image.png"
+              alt=""
+            />
+          </div>
+
+          <!-- this is the right nav bar that contains the focused photo image -->
+          <nav class="r-nav">
+            <h2 class="item-header-title">Object view</h2>
+            <ul class="r-nav-ul">
+              <li class="r-nav-li">
+                <img src="source/image/green-jacket-png-image.png" alt="" />
+              </li>
+              <li class="r-nav-li">
+                <img src="source/image/hoodi-jacket-png-image.png" alt="" />
+              </li>
+              <li class="r-nav-li">
+                <img src="source/image/jacket-png-image.png" alt="" />
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- ! this section contains the product information -->
+        <div class="r-section-bottom">
+          <section class="r-info-l">
+            <p class="r-info-text">
+              2023 Winter Puffer Jacket Ladies Warm Hooded Cotton-padded Clothes
+              men Slim Long Down Winter Jackets men Coats
+            </p>
+            <br />
+            <br />
+            <ul class="r-info-list-l">
+              <li class="r-info-list-content">
+                Quick refunds on orders under US $1,000
+              </li>
+
+              <li class="r-info-list-content">
+                Best material used by the designers
+              </li>
+
+              <li class="r-info-list-content">
+                You will recieve less that 2 working days
+              </li>
+              <li class="r-info-list-content">
+                Asian Size Denim Turn-Down Collar.
+              </li>
+              <li class="r-info-list-content">
+                Men's Jacket Stand Collar Real Leather Bomber.
+              </li>
+              <li class="r-info-list-content">
+                Jackets Fashion Male Black Long Sleeve Leather Jackets.
+              </li>
+            </ul>
+          </section>
+          <!--! this section contains the product material -->
+          <section class="r-product-material-l">
+            <div class="material-name">
+              <ul>
+                <pre>Material          <span class="l-material-info"> leather</span></pre>
+                <pre>Company        Unkown</pre>
+                <pre>Designed        2019</pre>
+                <pre>Price               <span class="l-price-info">120</span>$</pre>
+              </ul>
+            </div>
+
+            <div class="material-description">
+              <p>
+                This coat was one of the most selling products in the last year!
+                you can but this with only 120 USD
+              </p>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <!-- footer  -->
+      <div class="footer-info">
+        <p>This page was designed by Pouriya Moshfegh</p>
+        <i class="fa fa-linkedin-square"></i>
+        <span> &nbsp;Pouriya Moshfegh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+        <i class="fa fa-instagram"></i>
+        <span> &nbsp;Pouriyams&nbsp;&nbsp; </span>
+      </div>
+    </div>
+
+    <script type="module" src="product.js"></script>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
