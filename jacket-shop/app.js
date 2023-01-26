@@ -75,7 +75,7 @@ class UI {
         storage.addedCart(cart);
         this.totalPrice(cart);
         this.addItemToModal(addedProducts);
-        // this.logic();
+
       });
     });
   }
@@ -93,7 +93,7 @@ class UI {
   }
   static addItemToModal(item) {
     let value = document.createElement("div");
-    // value.classList.add("modal-list-items");
+
     value.innerHTML = `
     <div class="modal-list-item" data-id="${item.id}">
     <img src=" ${item.src} " alt=""/>
@@ -124,7 +124,7 @@ class UI {
       let pId = parseFloat(e.target.parentElement.parentElement.dataset.id);
       let same = cart.filter((each) => parseFloat(pId) === each.id);
 
-      // console.log(quantity);
+
       // this is for trash icon
       if (allIcons.contains("trashI")) {
         this.remover(pId);
@@ -142,7 +142,6 @@ class UI {
           total.quantity = total.quantity > 0 ? total.quantity - 1 : 0;
           e.target.previousElementSibling.innerText = total.quantity;
         });
-        // this.totalPrice(cart);
       }
       storage.addedCart(cart);
       this.totalPrice(cart);
