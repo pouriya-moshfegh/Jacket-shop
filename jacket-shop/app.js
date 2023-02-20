@@ -174,7 +174,7 @@ class storage {
   }
   static getItemselected(tagetP) {
     const getItem = JSON.parse(localStorage.getItem("products"));
-    return getItem.find((storageP) => tagetP == parseInt(storageP.id));
+    return (getItem.find((storageP) => tagetP == parseInt(storageP.id)))||[];
   }
 
   static addedCart(cart) {
